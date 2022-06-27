@@ -1,0 +1,167 @@
+h1,
+h2,
+h3 {
+  font-family: "Lobster", cursive;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.navbar-brand {
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.nav-link a {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 17px;
+}
+
+/*.navbar-toggler {
+  background-color: #007ea7;
+  color: rgb(255, 255, 255);
+}*/
+
+.nav-link {
+  margin-left: 12, 5rem;
+  color: rgb(255, 253, 253);
+  text-align: center;
+}
+
+.panacea {
+  max-width: 38rem;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 2rem auto;
+}
+
+#pastillas div:first-child {
+  text-align: center;
+  width: 600px;
+  margin: auto;
+}
+
+#pastillas img {
+  width: 60%;
+  margin: 15px auto;
+}
+
+p {
+  font-family: "Roboto Flex", sans-serif;
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+}
+
+.card {
+  max-width: 160px;
+  height: auto;
+  margin: 10px auto;
+  border: 0px;
+}
+
+.card:hover {
+  background-color: rgba(224, 192, 150, 0.74);
+}
+
+.contactate {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.contactate p {
+  text-align: left;
+}
+
+.contactate > div {
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.marce li {
+  max-width: 35rem;
+  text-align: left;
+  /* list-style-type: none;*/
+  margin: 10px auto;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.maps {
+  margin: auto;
+}
+
+.maps ul {
+  text-align: center;
+  list-style-type: none;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+div iframe {
+  width: 30rem;
+  height: 25rem;
+  display: block;
+  margin: auto;
+}
+
+#contacto {
+  margin-top: 3rem;
+}
+
+form {
+  max-width: 38rem;
+  margin: 2rem auto;
+  padding: 20px;
+  background-color: #e5c687;
+  border-radius: 1%;
+}
+
+label {
+  margin: 5px;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+footer {
+  max-width: 100%;
+  height: 4rem;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #007ea7;
+  margin-top: 2rem;
+  color: white;
+}
+
+footer p {
+  margin: auto;
+  text-align: center;
+  padding: 0.1rem;
+}
+
+.btn-primary {
+  background-color: green;
+}
+
+@media screen and (max-width: 500px) {
+  form {
+    width: 25rem;
+  }
+
+  #pastillas div:first-child {
+    text-align: center;
+    width: 25rem;
+    margin: auto;
+  }
+
+  div iframe {
+    width: 25rem;
+    height: 25rem;
+  }
+  
+}
